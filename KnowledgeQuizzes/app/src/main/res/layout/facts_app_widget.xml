@@ -42,4 +42,13 @@
         android:paddingStart="10dp"
         app:srcCompat="@drawable/widget_ico" />
 
+    <TextView
+        android:id="@+id/displayLastCategoryScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/appwidget_text"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_toStartOf="@+id/share" />
+
 </RelativeLayout>

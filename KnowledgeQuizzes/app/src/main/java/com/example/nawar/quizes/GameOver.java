@@ -45,6 +45,8 @@ public class GameOver extends AppCompatActivity {
         if(getIntent().hasExtra(getString(R.string.high_sore))){
             high_score.setText(String.valueOf(getIntent().getIntExtra(getString(R.string.high_sore),0)));
         }
+        SharedPreferencesMethods.savePreferencesString(getApplicationContext(), getString(R.string.CATEGORY_IN_WIDGET_KEY), getIntent().getStringExtra(getString(R.string.category)));
+        SharedPreferencesMethods.savePreferencesString(getApplicationContext(), getString(R.string.SCORE_IN_WIDGET_KEY), String.valueOf(getIntent().getIntExtra(getString(R.string.score), 0)));
 
     }
     @OnClick(R.id.back_to_game)

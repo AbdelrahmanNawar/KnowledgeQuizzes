@@ -13,6 +13,8 @@
     <string name="correct">correct_answer</string>
     <string name="result">results</string>
     <string name="facts_key">facts key</string>
+    <string name="SCORE_IN_WIDGET_KEY">scoreWidgetKey</string>
+    <string name="CATEGORY_IN_WIDGET_KEY">categoryWidgetKey</string>
     <string name="tag">facts tag</string>
     <string name="no_internet">Please check your internet connection</string>
     <string name="high_sore">High score : </string>
