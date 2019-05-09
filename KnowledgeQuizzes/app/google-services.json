@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "359911584156",
+    "firebase_url": "https://knowledge-quizzes-db031.firebaseio.com",
+    "project_id": "knowledge-quizzes-db031",
+    "storage_bucket": "knowledge-quizzes-db031.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:359911584156:android:95f7e8ed5390d5bf",
+        "android_client_info": {
+          "package_name": "com.example.nawar.quizes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "359911584156-jvih2snjptgg1uovdcqu6vt4589kdsae.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nawar.quizes",
+            "certificate_hash": "eb38a585450d1e1d350d931d342a8e11c3393972"
+          }
+        },
+        {
+          "client_id": "359911584156-s6lvfud3nicpo9br6gve8hcdc0hi8u31.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-Kig_mKMBp-08BeUV1e93EsnKikG4u9g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "359911584156-s6lvfud3nicpo9br6gve8hcdc0hi8u31.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

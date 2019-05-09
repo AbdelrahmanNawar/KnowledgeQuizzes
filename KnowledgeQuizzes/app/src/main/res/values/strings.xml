@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">KnowledgeQuizzes</string>
+    <string name="appwidget_text">QUOTE</string>
+    <string name="categories">Categories</string>
+    <string name="question_key">question</string>
+    <string name="answerA">Answer A </string>
+    <string name="answerB">Answer B</string>
+    <string name="answerC">Answer C</string>
+    <string name="answerD">Answer D</string>
+    <string name="idea_logo">idea logo</string>
+    <string name="app_logo">app logo</string>
+    <string name="incorrect">incorrect_answers</string>
+    <string name="correct">correct_answer</string>
+    <string name="result">results</string>
+    <string name="facts_key">facts key</string>
+    <string name="tag">facts tag</string>
+    <string name="no_internet">Please check your internet connection</string>
+    <string name="high_sore">High score : </string>
+    <string name="genre">Genre: </string>
+    <string name="score_key">score</string>
+    <string name="score">score : </string>
+    <string name="category">category</string>
+    <string name="new_high_score">New High Score</string>
+    <string name="play_again">Play again</string>
+    <string name="timer_key">timer key</string>
+    <string name="btnKey">Button key</string>
+    <string name="answer_key">answer key</string>
+    <string name="index_key">index key</string>
+    <string name="game_over">Game Over</string>
+    <string name="attemps_key">attempes Over</string>
+    <string name="facebook_key">492838171251083</string>
+
+
+    <string name="app_unit_id">ca-app-pub-8372416881890670/7120236809</string>
+</resources>
