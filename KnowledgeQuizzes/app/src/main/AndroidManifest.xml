@@ -23,6 +23,7 @@
             </intent-filter>
         </service>
 
+
         <receiver android:name="com.example.nawar.quizes.FactsAppWidget">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
