@@ -12,19 +12,22 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".LoginActivity"></activity>
+        <activity android:name=".RegisterActivity" />
+
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
             android:value="ca-app-pub-8372416881890670~1218131299" />
+
         <service
-            android:name="com.example.nawar.quizes.FactsJob"
+            android:name=".FactsJob"
             android:exported="false">
             <intent-filter>
                 <action android:name="com.firebase.jobdispatcher.ACTION_EXECUTE" />
             </intent-filter>
         </service>
 
-
-        <receiver android:name="com.example.nawar.quizes.FactsAppWidget">
+        <receiver android:name=".FactsAppWidget">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
                 <action android:name="MY_PACKAGE_NAME.WIDGET_BUTTON" />
@@ -44,7 +47,7 @@
             android:authorities="com.facebook.app.FacebookContentProvider492838171251083"
             android:exported="true" />
 
-        <activity android:name="com.example.nawar.quizes.Welcome">
+        <activity android:name=".Welcome">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <action android:name="android.intent.action.VIEW" />
@@ -59,7 +62,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.nawar.quizes.SplashScreen"
+            android:name=".SplashScreen"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -67,9 +70,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.nawar.quizes.Categories" />
-        <activity android:name="Questions_Activity" />
-        <activity android:name="com.example.nawar.quizes.GameOver" />
+        <activity android:name=".Categories" />
+        <activity android:name=".Questions_Activity" />
+        <activity android:name=".GameOver" />
 
         <meta-data
             android:name="preloaded_fonts"

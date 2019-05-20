@@ -6,9 +6,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.Button;
 
-import com.example.nawar.quizes.R;
 import com.facebook.FacebookSdk;
-import com.facebook.appevents.AppEventsLogger;
 import com.facebook.share.model.ShareLinkContent;
 import com.facebook.share.widget.ShareDialog;
 import com.firebase.jobdispatcher.FirebaseJobDispatcher;
@@ -89,7 +87,7 @@ public class Welcome extends AppCompatActivity {
 
     @OnClick(R.id.play)
     void play() {
-        Intent intent = new Intent(this, Categories.class);
+        Intent intent = new Intent(this, LoginActivity.class);
         startActivity(intent);
     }
 }

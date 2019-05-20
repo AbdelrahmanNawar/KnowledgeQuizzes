@@ -34,4 +34,10 @@
 
 
     <string name="app_unit_id">ca-app-pub-8372416881890670/7120236809</string>
+    <string name="RegisterUser">Register User</string>
+    <string name="Email">Enter your Email</string>
+    <string name="password">Password</string>
+    <string name="SignIn"><![CDATA[Already Registered? Sign in here]]></string>
+    <string name="SignUp"><![CDATA[Not Having an account? Sign up here]]></string>
+    <string name="Login">Login</string>
 </resources>
